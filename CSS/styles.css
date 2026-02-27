@@ -1,0 +1,176 @@
+
+
+/*
+COLOR PALETTE
+
+Baby blue     #aecbd8
+Tiger lilly   #f06c57
+Peach         #fed7a7
+Carafe        #6d452e
+Off-white     #f6f6f6
+*/
+
+/* GLOBAL STYLES */
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #aecbd8; 
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 1.7rem;
+    line-height: 1.4;
+}
+ h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1 {
+  font-size: 4rem;
+  color: #6d452e;
+}
+h2 {
+   color: #f06c57;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: #a66d4b;
+  padding: 0px;
+  margin: 0px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5px;
+  border-radius: 10px;
+}
+.navbar a {
+  color: #fed7a7;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+  .navbar a:hover {
+  background-color: rgb(85, 83, 83);
+} 
+.navbar li {
+  float: left;
+  font-size: 2rem;
+  padding: 0 20px;
+}
+
+/* HOME PAGE STYLES */
+/* <a> tag for when we add hyperlinks to the 3 products */
+a {
+    color: #3c8453;
+}
+a:hover {
+    color: #bcaa96;
+    text-decoration: none;
+}
+.header-grid {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  margin: 0 4rem;
+}
+.product-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 20px;
+  margin: 30px;
+}
+.product-columns p {
+  font-size: 2rem;
+}
+.product-item {
+  max-width: 100%;
+}
+/* TEACHING-METHODOLOGY AND TO-THE-TEACHER STYLES */ 
+.teaching-method {
+    background: url(../images/teaching-method-500-full.webp) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.to-teacher {
+    background: url(../images/toteacher-500.webp) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;       
+}
+.content-bg {
+  background: #f6f6f6;
+  padding: 30px; 
+}
+/* BIO PAGE STYLES */
+.center-title {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.biogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem;
+}
+.biogrid p {
+  font-size: 3rem;
+  padding-top: 6rem;
+}
+/* CONTACT PAGE STYLES */
+input {
+  background-color: white;
+  width: 70%;
+  margin-left: 12%;
+  font-size: 2rem;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 1rem;
+}
+textarea {
+  background-color: white;
+  width: 70%;
+  margin-left: 12%;
+  font-size: 2rem;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 25px;
+}
+input:focus-within {
+  outline: none;
+  border-color: #5bd183;
+  border-width: 3px;
+}
+textarea:focus-within {
+  outline: none;
+  border-color: #5bd183;
+  border-width: 3px;
+}
+button {
+  background-color: #fed7a7;
+  border-radius: 20px;
+  border-color: black;
+  font-size: 22px;
+  padding: 10px 18px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
