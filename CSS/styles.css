@@ -130,6 +130,10 @@ a:hover {
   padding-top: 6rem;
 }
 /* CONTACT PAGE STYLES */
+.iframe-container {
+  display: flex;
+  justify-content: center;
+}
 input {
   background-color: white;
   width: 70%;
