@@ -103,28 +103,6 @@ a {
 .bio p {
   line-height: 1.7;
 }
-/* TEACHING-METHODOLOGY AND TO-THE-TEACHER STYLES */ 
-.teaching-method {
-    background: url(../images/teaching-method-500-full.webp) no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-}
-.to-teacher {
-    background: url(../images/toteacher-500.webp) no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-}
-.content-wrapper {
-    margin: 0 auto;
-    padding: 30px;
-    max-width: 900px;       
-}
-.content-bg {
-  background: #f6f6f6;
-  padding: 30px; 
-}
 /* BIO PAGE STYLES */
 .center-title {
   width: 50%;
@@ -157,7 +135,7 @@ a {
   justify-content: center;
 } */
 
-/* This is CSS for the better-looking contact page. I hope I can get it to work. */
+/* This is CSS for the formspree.io contact page. I hope I can get it to work. */
 input {
   border-width: .35rem;
   border-style: solid;
