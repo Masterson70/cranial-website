@@ -20,9 +20,6 @@ h1 {
   font-size: 4rem;
   font-weight: 400;
 }
-/* h2 {
-   color: #f06c57;
-} */
 
 /* NAVBAR STYLES */
 .navbar {
@@ -88,6 +85,9 @@ a {
 .product-item {
   max-width: 100%;
 }
+.button-class {
+  background-color: rgb(203, 169, 169);
+}
 .main-narrative {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -130,62 +130,72 @@ a {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
   text-align: center;
 }
 .biogrid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin: 2rem;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  margin: 3rem;
 }
 .biogrid p {
   font-size: 2rem;
-  /* padding-top: 6rem; */
 }
 .biogrid h2 {
   padding-top: 2rem;
 }
 
+.biogrid img {
+  margin-left: 3rem;
+}
 /* CONTACT PAGE STYLES */
 
 /* This is the CSS for the Google Forms contact page */
-.iframe-container {
+/* .iframe-container {
   display: flex;
   justify-content: center;
-}
+} */
 
 /* This is CSS for the better-looking contact page. I hope I can get it to work. */
 input {
-  background-color: white;
+  border-width: .35rem;
+  border-style: solid;
+  background-color: #e2d4c4;
   width: 70%;
   margin-left: 12%;
   font-size: 2rem;
   padding: 16px 16px;
-  border-radius: 10px;
+  border-radius: 20px;
   border-color: black;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 textarea {
-  background-color: white;
+  border-width: .35rem;
+  border-style: solid;
+  background-color: #e2d4c4;
   width: 70%;
   margin-left: 12%;
   font-size: 2rem;
   padding: 16px 16px;
-  border-radius: 10px;
+  border-radius: 20px;
   border-color: black;
   margin-bottom: 25px;
 }
 input:focus-within {
   outline: none;
-  border-color: #5bd183;
+  border-color: brown;
   border-width: 3px;
 }
 textarea:focus-within {
   outline: none;
-  border-color: #5bd183;
+  border-color: brown;
   border-width: 3px;
 }
 button {
-  background-color: #fed7a7;
+  border-width: .35rem;
+  border-style: solid;
+  background-color: #e2d4c4;
   border-radius: 20px;
   border-color: black;
   font-size: 22px;
